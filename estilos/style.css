@@ -1,0 +1,320 @@
+/*selector{
+    propiedad:valor;
+}*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HOME
+*/
+
+body{
+    background-color: white;
+}
+
+
+header{
+    background-color: rgb(101, 123, 136);
+    margin-top: 0;
+    padding: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+   ∫
+    
+    
+
+}
+
+li{
+    padding: 40px 20px 40px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    
+    
+
+}
+
+.loguito{
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    
+}
+
+.imgPrincipal{
+
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: rgb(101, 123, 136);
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding: 90px;
+    background-image: linear-gradient(to bottom, rgb(101, 123, 136), white);
+}
+
+
+
+
+
+ 
+
+
+
+
+
+.imgContacto{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.imgTerapias{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.imgNosotros{
+
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.imgGaleria{
+
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.encabezado{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    
+}
+
+.lista{
+    text-decoration: none;
+    color: rgb(101, 123, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.motivacion{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 123, 136);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 123, 136);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+hr{
+    
+    color: rgb(101, 123, 136);
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+
+section{
+    margin-top: 80px;
+
+}
+
+
+
+.redesSociales{
+display: flex;
+justify-content: center;
+
+}
+
+@media only screen and (max-width: 425px){
+
+
+}
+    
+
+
+
+.seccionImagenes{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr;
+    grid-template-areas:
+    "foto1 foto2 foto3 foto4"
+    "foto5 foto6 foto7 foto8";
+    row-gap: 50px;
+    justify-items: center;
+
+}
+
+.foto1{
+    grid-area: foto1;
+}
+
+.foto2{
+    grid-area: foto2;
+}
+
+.foto3{
+    grid-area: foto3;
+}
+
+.foto4{
+    grid-area: foto4;
+}
+
+.foto5{
+    grid-area: foto5;
+}
+
+.foto6{
+    grid-area: foto6;
+}
+
+.foto7{
+    grid-area: foto7;
+}
+
+.foto8{
+    grid-area: foto8;
+}
+
+
+.video{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.seccionIconos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-areas:
+    "cubo ejercicio mamanene papel";
+    justify-items: center;
+
+}   
+
+.evaluacion{
+    grid-area: cubo;
+    background-color: rgb(236, 132, 93);
+
+}
+
+.objetivos{
+    grid-area: ejercicio;
+    background-color:rgb(236, 132, 93) ;
+}
+
+.seguimiento{
+    grid-area: mamanene;
+    background-color: rgb(236, 132, 93);
+}
+
+.planilla{
+    grid-area: papel;
+    background-color: rgb(236, 132, 93) ;
+}
+
+
+
+.seccionProfesionales{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr 4fr;
+    grid-template-areas:
+    "doc1 doc2 doc3"
+    "doc4 doc5 doc6"
+    "doc7 doc8 doc9";
+    row-gap: 50px;
+    justify-items: center;
+
+}
+
+.doctor1{
+    grid-area: doc1;
+}
+
+.doctor2{
+    grid-area: doc2;
+}
+
+.doctor3{
+    grid-area: doc3;
+}
+
+.doctor4{
+    grid-area: doc4;
+}
+
+.doctor5{
+    grid-area: doc5;
+}
+
+.doctor6{
+    grid-area: doc6;
+}
+
+.doctor7{
+    grid-area: doc7;
+}
+
+.doctor8{
+    grid-area: doc8;
+}
+
+.doctor9{
+    grid-area: doc9;
+}
+
+
