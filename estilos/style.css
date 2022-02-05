@@ -276,7 +276,7 @@ justify-content: center;
     grid-template-areas:
     "doc1 doc2 doc3"
     "doc4 doc5 doc6"
-    "doc7 doc8 doc9";
+    ;
     row-gap: 50px;
     justify-items: center;
 
@@ -306,28 +306,17 @@ justify-content: center;
     grid-area: doc6;
 }
 
-.doctor7{
-    grid-area: doc7;
-}
 
-.doctor8{
-    grid-area: doc8;
-}
-
-.doctor9{
-    grid-area: doc9;
-}
 
 
 /* animaciones nosotros */
 
 .doctor1:hover {
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
-
-}
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    overflow: hidden;
+    
+    }
 
 .doctor2:hover {
 -webkit-transform: scale(1.3);
@@ -335,3 +324,31 @@ transform: scale(1.3);
 overflow: hidden;
 
 }
+
+.doctor3:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    overflow: hidden;
+    
+    }
+
+    .doctor4:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        overflow: hidden;
+        
+        }
+    
+    .doctor5:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    overflow: hidden;
+    
+    }
+    
+    .doctor6:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        overflow: hidden;
+        
+        }
