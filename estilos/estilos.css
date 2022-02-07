@@ -1,0 +1,281 @@
+/*selector{
+    propiedad:valor;
+}*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HOME
+*/
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #657b88;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+li {
+  padding: 40px 20px 40px 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.loguito {
+  width: 140px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.imgPrincipal {
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #657b88;
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding: 90px;
+}
+
+.imgContacto {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.imgTerapias {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.imgNosotros {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.imgGaleria {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.encabezado {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista {
+  text-decoration: none;
+  color: #657b88;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.motivacion {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #657b88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #657b88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+hr {
+  color: #657b88;
+  width: 100%;
+}
+
+section {
+  margin-top: 80px;
+}
+
+.redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seccionIconos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr 2fr;
+      grid-template-areas: "cubo ejercicio mamanene papel";
+  justify-items: center;
+}
+
+.evaluacion {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cubo;
+  background-color: #a5d5eb;
+}
+
+.objetivos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: ejercicio;
+  background-color: #b2ebc3;
+}
+
+.seguimiento {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: mamanene;
+  background-color: #a5d5eb;
+}
+
+.planilla {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: papel;
+  background-color: #b2ebc3;
+}
+
+.seccionProfesionales {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  -ms-grid-rows: 4fr 4fr 4fr;
+      grid-template-rows: 4fr 4fr 4fr;
+      grid-template-areas: "doc1 doc2 doc3" "doc4 doc5 doc6";
+  row-gap: 50px;
+  justify-items: center;
+}
+
+.doctor1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: doc1;
+}
+
+.doctor2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: doc2;
+}
+
+.doctor3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: doc3;
+}
+
+.doctor4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: doc4;
+}
+
+.doctor5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: doc5;
+}
+
+.doctor6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: doc6;
+}
+
+/* animaciones nosotros */
+.doctor1:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.doctor2:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.doctor3:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.doctor4:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.doctor5:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+.doctor6:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  overflow: hidden;
+}
+/*# sourceMappingURL=estilos.css.map */
