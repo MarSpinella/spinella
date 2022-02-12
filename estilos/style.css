@@ -19,7 +19,8 @@ body{
 header{
     background-color:rgb(101, 123, 136) ;
     margin-top: 0;
-    padding: 10px;
+    padding: 10x;
+    
     
 }
 
@@ -27,11 +28,7 @@ header{
 
 
 
-.container{
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 
 
@@ -68,11 +65,7 @@ li{
     
 }
 
-.imgPrincipal{
 
-    width: 100%;
-    margin-top: 50px;
-}
 
 footer{
     background-color:rgb(101, 123, 136) ;
@@ -83,40 +76,13 @@ footer{
 }
 
 
-
-
-
- 
-
-
-
-
-
-.imgContacto{
+.imgCentral {
     width: 100%;
     margin-top: 50px;
 
 }
 
-.imgTerapias{
-    width: 100%;
-    margin-top: 50px;
 
-}
-
-.imgNosotros{
-
-    width: 100%;
-    margin-top: 50px;
-
-}
-
-.imgGaleria{
-
-    width: 100%;
-    margin-top: 50px;
-
-}
 
 .encabezado{
     color: white;
@@ -130,6 +96,7 @@ footer{
     text-decoration: none;
     color: rgb(101, 123, 136);
     font-family: Arial, Helvetica, sans-serif;
+
     
     
 }
@@ -164,9 +131,6 @@ hr{
 
 
 
-
-
-
 section{
     margin-top: 80px;
 
@@ -188,38 +152,7 @@ justify-content: center;
 }
 
 
-
-.seccionIconos{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-areas:
-    "cubo ejercicio mamanene papel";
-    justify-items: center;
-
-}   
-
-.evaluacion{
-    grid-area: cubo;
-    background-color:rgb(165, 213, 235) ;
-
-}
-
-.objetivos{
-    grid-area: ejercicio;
-    background-color:rgb(178, 235, 195) ;
-}
-
-.seguimiento{
-    grid-area: mamanene;
-    background-color: rgb(165, 213, 235);
-}
-
-.planilla{
-    grid-area: papel;
-    background-color: rgb(178, 235, 195) ;
-}
-
-
+/* NOSOTROS CON GRIDS*/
 
 .seccionProfesionales{
     display: grid;
@@ -261,7 +194,7 @@ justify-content: center;
 
 
 
-/* animaciones nosotros */
+/* ANIMACIONES NOSOTROS */
 
 .doctor1:hover {
     -webkit-transform: scale(1.3);
